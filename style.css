@@ -5,6 +5,5 @@ body {
 }
 
 .helloworld {
-	align: center;
-	color: pink;
+	text-align: center;
 }
