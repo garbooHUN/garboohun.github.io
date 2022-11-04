@@ -1,17 +1,27 @@
-body {
+body { 
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 	background-color: black;
 	color: white;
 	font-family: Roboto, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .helloworld {
 	text-align: center;
 }
 
+.helloworld a {
+	color: gray;
+}
+
 /* The navigation menu */
 .navbar {
-  overflow: hidden;
   background-color: white;
+  position:fixed;
 }
 
 /* Navigation links */
