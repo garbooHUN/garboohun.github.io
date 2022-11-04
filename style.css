@@ -18,6 +18,13 @@ body a {
 	color: gray;
 }
 
+img {
+	max-width: 25%;
+	max-height: 25%;
+	width: auto;
+	height: auto;
+}
+
 .footer {
 	text-align: center;
 }
