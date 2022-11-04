@@ -8,6 +8,8 @@ body {
 	background-color: black;
 	color: white;
 	font-family: Roboto, sans-serif;
+    	margin:40px auto;
+    	padding:0 10px;
 }
 
 body::-webkit-scrollbar {
@@ -16,6 +18,10 @@ body::-webkit-scrollbar {
 
 body a {
 	color: gray;
+}
+
+.brand {
+	text-align: center;
 }
 
 .fekvo {
@@ -39,11 +45,23 @@ body a {
         height: auto;
 }
 
+.longlogo {
+	width: auto;
+	height: auto;
+	max-width: 20%
+	max-height: 20%
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
 .footer {
 	text-align: center;
 }
 
-.helloworld {
+.bemutatk {
 	text-align: center;
 }
 
