@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body { 
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
@@ -10,12 +14,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.helloworld {
+body a {
+	color: gray;
+}
+
+.footer {
 	text-align: center;
 }
 
-.helloworld a {
-	color: gray;
+.helloworld {
+	text-align: center;
 }
 
 /* The navigation menu */
