@@ -1,3 +1,4 @@
+
 body { 
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
@@ -80,12 +81,14 @@ body a {
 .buttonline {
   text-align: center;
   line-height: 54px;
+}
 
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  left: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-
+.menu {
+	text-align: center;
+	line-height: 54px;
+	position: fixed; /* Fixed/sticky position */
+  	top: 20px; /* Place the button at the bottom of the page */
+  	left: 30px; /* Place the button 30px from the right */
 }
 
 a {
@@ -125,6 +128,10 @@ button.fancy {
 	text-align: center;
 }
 
+.sitelarge {
+	text-align: left;
+}
+
 button.wider {
   appearance: none;
   border: none;
@@ -136,7 +143,7 @@ button.wider {
   
   color: #fff;
   
-  text-align: left;
+  text-align: center;
   
   font-weight: 600;
   line-height: 60px;
