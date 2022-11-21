@@ -139,7 +139,7 @@ button.fancy {
   border: none;
   border-radius: 10px;
   padding: 2px 20px 5px 10px;
-  width: 12vw;
+  width: 15vw;
   
   cursor: pointer;
   
@@ -147,8 +147,8 @@ button.fancy {
   
   text-align: center;
   
-  font-size: 1.3vw;
-  line-height: 3vw;
+  font-size: 2vw;
+  line-height: 5vw;
 
   user-select: none;
   vertical-align: middle;
