@@ -5,7 +5,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: Roboto, sans-serif;
-    	padding:0 10px;
+	padding:0 10px;
 }
 
 body::-webkit-scrollbar {
@@ -16,12 +16,16 @@ body a {
 	color: gray;
 }
 
+p {
+	font-size:2vw;
+}
+
 .brand {
 	text-align: center;
 }
 
 .fekvo {
-	max-width: 50%;
+	max-width: 100%;
 	max-height: 50%;
 	width: auto;
 	height: auto;
@@ -50,7 +54,30 @@ body a {
 
 /*test zone*/
 
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: red; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
 
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
 
 /*end of test zone*/
 
@@ -69,6 +96,7 @@ body a {
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 30px; /* Increase font size */
+  max-width: 100%;
 }
 
 #myBtn:hover {
@@ -86,9 +114,6 @@ body a {
 .menu {
 	text-align: center;
 	line-height: 54px;
-	position: fixed; /* Fixed/sticky position */
-  	top: 20px; /* Place the button at the bottom of the page */
-  	left: 30px; /* Place the button 30px from the right */
 	max-width: 100%;
         max-height: 100%;
         width: auto;
@@ -112,7 +137,7 @@ button.fancy {
   border: none;
   border-radius: 10px;
   padding: 2px 20px 5px 10px;
-  width: 80px;
+  width: 15vw;
   
   cursor: pointer;
   
@@ -120,8 +145,8 @@ button.fancy {
   
   text-align: center;
   
-  font-weight: 600;
-  line-height: 20px;
+  font-size: 2vw;
+  line-height: 5vw;
 
   user-select: none;
   vertical-align: middle;
