@@ -25,6 +25,30 @@
 	<a href="secret.html" target="_blank">
 	<button class="fancy" style="background-color: grey;"><span class="sitesmall">??</span><br/><span class="sitelarge"></span></button></a>
 	</div>
+	<!--Oldal tetejére gomb-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+<script>
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!--END-->
 	<h1>Brand</h1>
 	<div class="brand">
         	<p>2020 December 11. A dátum amikor minden elkezdődött. Ekkor indítottam az instagram oldalam, egy olyan videó hatására, amiben Formula 1-es autókat modelleztek 2D-ben, és úgy gondoltam én is megpróbálom magam ebben a műfajban, csak én nem LinkedIn-re rakom fel őket, hanem instagramra. Az első alkotásom tehát egy F1-es autó volt:</p>
